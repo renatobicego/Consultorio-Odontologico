@@ -48,7 +48,7 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
   ```json
     {
       "nombre": "Renato",
-      "apellido": "Bicegp",
+      "apellido": "Bicego",
       "fechaIngreso": "2023-04-17",
       "domicilio": {
         "calle": "9 de Julio",
