@@ -24,7 +24,7 @@ Proyecto integrador de la materia Backend I de funciones CRUD y API REST para el
 
  ```bash
 cd carpeta-destino
-git clone https://github.com/renatobicego/consultorio_odontologico.git
+git clone https://github.com/renatobicego/Consultorio_Odontologico.git
 
 ```
 - ### Maven:
@@ -47,14 +47,14 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
   
   ```json
     {
-      "nombre": "Mauro",
-      "apellido": "Lucero",
+      "nombre": "Renato",
+      "apellido": "Bicegp",
       "fechaIngreso": "2023-04-17",
       "domicilio": {
-        "calle": "Avenide Indepenencia",
-        "numero": 4110,
-        "localidad": "Mar del Plata",
-        "provincia": "Buenos Aires"
+        "calle": "9 de Julio",
+        "numero": 4,
+        "localidad": "Mendoza",
+        "provincia": "Mendoza"
       }
     }
     ```
@@ -65,15 +65,15 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
   ```json
   {  
       "id":1,
-      "nombre": "Mauro",
-      "apellido": "Lucero",
+      "nombre": "Renato",
+      "apellido": "Bicego",
       "fechaIngreso": "2023-04-17",
       "domicilio": {
         "id":1,
-        "calle": "Avenide Indepenencia",
-        "numero": 4110,
-        "localidad": "Mar del Plata",
-        "provincia": "Buenos Aires"
+        "calle": "9 de Julio",
+        "numero": 4,
+        "localidad": "Mendoza",
+        "provincia": "Mendoza"
       }
     }
   ```  
@@ -82,15 +82,15 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
   ```json
    {   
       "id":1,
-      "nombre": "Mauro",
-      "apellido": "Lucero",
+      "nombre": "Renato",
+      "apellido": "Bicego",
       "fechaIngreso": "2023-04-17",
       "domicilio": {
         "id":1,
-        "calle": "Avenide Indepenencia",
-        "numero": 4110,
-        "localidad": "Mar del Plata",
-        "provincia": "Buenos Aires"
+        "calle": "9 de Julio",
+        "numero": 4,
+        "localidad": "Las Heras",
+        "provincia": "Mendoza"
       }
     }
    ```
@@ -107,9 +107,9 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
    
     ```json
     {
-      "nombre": "Mauro",
-      "apellido": "Lucero",
-      "matricula": "4665"
+      "nombre": "Carlos",
+      "apellido": "Bicego",
+      "matricula": 123
     }
     ```
 - Buscar: `GET` -> `localhost:8080/odontologos/{id}`
@@ -119,9 +119,9 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
 ```json
   {   
       "id": 1,
-      "nombre": "Mauro",
-      "apellido": "Lucero",
-      "matricula": "4665"
+      "nombre": "Carlos",
+      "apellido": "Bicego",
+      "matricula": 123
     }
 ```
 - Actualizar existente: `PUT` -> `localhost:8080/odontologos/`
@@ -130,9 +130,9 @@ Una vez hecho esto Tomcat levantara el servidor en el puerto 8080. La credencial
  ```json
   {   
       "id": 1,
-      "nombre": "Mauro",
-      "apellido": "Lucero",
-      "matricula": "4665"
+      "nombre": "Carlos",
+      "apellido": "Bicego",
+      "matricula": 321
     }
 ```
 - Eliminar por id: `DELETE` -> `localhost:8080/odontologos/{id}`
