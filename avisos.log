@@ -116,3 +116,8 @@
 [2023-04-11 10:32:35] [ INFO ] [TurnoController:38] Buscando todos los turnos
 [2023-04-12 20:27:47] [ INFO ] [OdontologoController:35] Buscando todos los odontologos
 [2023-04-12 20:27:47] [ INFO ] [PacienteController:37] Buscando todos los pacientes
+[2023-05-07 14:33:08] [ INFO ] [OdontologoController:35] Buscando todos los odontologos
+[2023-05-07 14:33:09] [ INFO ] [PacienteController:37] Buscando todos los pacientes
+[2023-05-07 14:33:10] [ INFO ] [TurnoController:38] Buscando todos los turnos
+[2023-05-07 14:33:22] [ INFO ] [TurnoController:38] Buscando todos los turnos
+[2023-05-07 14:33:31] [ INFO ] [OdontologoController:35] Buscando todos los odontologos
